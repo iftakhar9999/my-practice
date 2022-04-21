@@ -50,3 +50,13 @@ else {
     // console.log('vai toder kothaw jawa lagbe h ....samne xm ')
 }
 // we need more and more practice to learn all this condition
+let hour = 7;
+
+if (hour >= 6 && hour <= 12)
+    console.log(' good moring')
+
+else if (hour >= 12 && hour <= 18)
+    console.log('good afternoon')
+
+else
+    console.log('good evening');
